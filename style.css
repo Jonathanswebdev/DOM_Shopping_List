@@ -1,0 +1,91 @@
+.coolTitle {
+  text-align: center;
+  padding: 30px;
+  font-family: "Oswald", Helvetica, sans-serif;
+  font-size: 40px;
+  transform: skewY(-10deg);
+  letter-spacing: 4px;
+  word-spacing: -8px;
+  color: tomato;
+  text-shadow: -1px -1px 0 firebrick, -2px -2px 0 firebrick,
+    -3px -3px 0 firebrick, -4px -4px 0 firebrick, -5px -5px 0 firebrick,
+    -6px -6px 0 firebrick, -7px -7px 0 firebrick, -8px -8px 0 firebrick,
+    -30px 20px 40px dimgrey;
+}
+
+.done {
+  text-decoration: line-through;
+}
+
+body {
+  background-color: bisque;
+}
+
+#enter {
+  background-color: rgb(246, 244, 242);
+  margin-left: 10px;
+  border-radius: 20%;
+  border-radius: none;
+  box-shadow: 3px 3px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+#enter:hover {
+  background-color: rgb(146, 194, 178);
+}
+
+p {
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  cursor: pointer;
+}
+
+.inputitems {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+#userinput {
+  color: rgb(146, 68, 42);
+  text-decoration: solid;
+  border-radius: solid;
+  border-color: rgb(146, 194, 178);
+}
+
+/* List Removal (Simple Design) */
+
+.btn-done {
+  margin-left: 10px;
+  border: 0.5px solid rgb(204, 201, 201);
+  background-color: white;
+  border-radius: 50%;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.btn-done:hover {
+  background-color: #f2b1b1;
+}
+
+.done {
+  cursor: pointer;
+  text-decoration: line-through #f2b1b1;
+}
+
+.deleteButton {
+  transition-duration: 0.4s;
+  cursor: pointer;
+  margin-left: 10px;
+  border-radius: 20px;
+}
+
+.deleteButton:hover {
+  background-color: #f2b1b1;
+}
